@@ -87,7 +87,7 @@ function generateImageFromSearchBar() {
 // const img = generateImageFromSearchBar();
 const img = new Image();
 img.crossOrigin = "";
-img.src = "../assets/tumblr.png";
+img.src = "https://anubhavp.dev/qd-compression/assets/tumblr.png";
 img.onload = () => {
     initSliderCanvas(img);
     initMouseCanvas(img);
